@@ -1,0 +1,4 @@
+# pedestrian_video_segmentation
+该数据集专门用于行人视频分割任务，共475个序列，其中332个序列组成训练集，143个序列组成测试集，每个序列长度在15-40帧。数据集文件结构参照通用类别视频分割数据
+集DAVIS-2017构建，共分为Annotations、ImageSets和JPEGImages三个文件夹。其中，JPEGImages存储序列图像的RGB图，Annotations中存储对应的分割图（图片名和
+RGB图的图片名相同），ImageSets存储图片的索引路径。
